@@ -1,0 +1,46 @@
+Day,Start_Time,End_Time,Subject,Batch
+Monday,08:30,09:30,AI&ML,ALL
+Monday,09:30,10:30,TC,ALL
+Monday,10:45,11:45,HRD,ALL
+Monday,11:45,12:45,HRD,ALL
+Monday,13:30,14:30,ETC,ALL
+Monday,14:30,15:30,RM&IPR,ALL
+Monday,15:30,16:30,SCR,ALL
+Tuesday,08:30,09:30,RM&IPR,ALL
+Tuesday,09:30,10:30,AI&ML,ALL
+Tuesday,10:45,11:45,PE,ALL
+Tuesday,11:45,12:45,OE,ALL
+Tuesday,13:30,14:30,AI&ML Lab,B1
+Tuesday,14:30,15:30,AI&ML Lab,B1
+Tuesday,13:30,14:30,TC Lab,B2
+Tuesday,14:30,15:30,TC Lab,B2
+Tuesday,15:30,16:30,Library,ALL
+Wednesday,08:30,09:30,ETC,ALL
+Wednesday,09:30,10:30,TC,ALL
+Wednesday,10:45,11:45,OE,ALL
+Wednesday,11:45,12:45,PE,ALL
+Wednesday,13:30,14:30,Sports,ALL
+Wednesday,14:30,15:30,Sports,ALL
+Thursday,08:30,09:30,TC,ALL
+Thursday,09:30,10:30,ETC,ALL
+Thursday,10:45,11:45,PE,ALL
+Thursday,11:45,12:45,OE,ALL
+Thursday,13:30,14:30,AI&ML Lab,B2
+Thursday,14:30,15:30,AI&ML Lab,B2
+Thursday,13:30,14:30,TC Lab,B3
+Thursday,14:30,15:30,TC Lab,B3
+Thursday,15:30,16:30,Project Phase-1,ALL
+Friday,08:30,09:30,AI&ML,ALL
+Friday,09:30,10:30,RM&IPR,ALL
+Friday,10:45,11:45,AI&ML Lab,B3
+Friday,11:45,12:45,AI&ML Lab,B3
+Friday,10:45,11:45,TC Lab,B1
+Friday,11:45,12:45,TC Lab,B1
+Friday,13:30,14:30,Project Phase-1,ALL
+Friday,14:30,15:30,Project Phase-1,ALL
+Saturday,08:30,09:30,ABL/PBL,ALL
+Saturday,09:30,10:30,ABL/PBL,ALL
+Saturday,10:45,11:45,ABL/PBL,ALL
+Saturday,11:45,12:45,ABL/PBL,ALL
+Saturday,13:30,14:30,ABL/PBL,ALL
+Saturday,14:30,15:30,ABL/PBL,ALL
