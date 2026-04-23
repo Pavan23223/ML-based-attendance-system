@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-dataset_path = "C:/Users/PAVAN/Documents/Projects/aiml_project/dataset"
+dataset_path = "../dataset"
 
 faces = []
 labels = []
@@ -26,7 +26,7 @@ for file in os.listdir(dataset_path):
         img = cv2.imread(path)
 
         if img is None:
-            print("❌ Image not loaded")
+            print("Image not loaded")
             continue
 
         # Resize (important for detection)
@@ -38,7 +38,7 @@ for file in os.listdir(dataset_path):
             name = file.split("_")[0]
             usn = file.split("_")[1]
         except:
-            print("❌ Filename format wrong:", file)
+            print("Filename format wrong:", file)
             continue
 
         key = name + "_" + usn
@@ -65,7 +65,7 @@ for file in os.listdir(dataset_path):
 print("\nTotal faces collected:", len(faces))
 
 if len(faces) == 0:
-    print("❌ ERROR: No faces detected. Fix dataset.")
+    print("ERROR: No faces detected. Fix dataset.")
     exit()
 
 print("\nTraining model...")
@@ -76,5 +76,5 @@ model.train(faces, np.array(labels))
 model.save("face_model.yml")
 np.save("labels.npy", label_map)
 
-print("\n✅ Training completed successfully!")
+print("\n Training completed successfully!")
 print("Saved: face_model.yml + labels.npy")
